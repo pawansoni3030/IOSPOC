@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265B1989F9A0657A816ECE43 /* Pods_StepWell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9666DFAE5B18C996B12CAD0 /* Pods_StepWell.framework */; };
+		8716543B29AA222300433A0D /* WeekDayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716543A29AA222300433A0D /* WeekDayCollectionViewCell.swift */; };
+		871980F029A4E91400217860 /* CountryCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871980EF29A4E91400217860 /* CountryCodeCell.swift */; };
+		871980F329A5F1E800217860 /* StepProgressGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871980F229A5F1E800217860 /* StepProgressGraphView.swift */; };
+		871980F929A618D100217860 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871980F829A618D100217860 /* Functions.swift */; };
+		8724034D29AB3AAD00610595 /* dailyDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8724034C29AB3AAD00610595 /* dailyDataTableViewCell.swift */; };
+		8739A8D12982C9A5000A20FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739A8D02982C9A5000A20FA /* AppDelegate.swift */; };
+		8739A8D32982C9A5000A20FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739A8D22982C9A5000A20FA /* SceneDelegate.swift */; };
+		8739A8D82982C9A5000A20FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8739A8D62982C9A5000A20FA /* Main.storyboard */; };
+		8739A8DA2982C9A6000A20FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8739A8D92982C9A6000A20FA /* Assets.xcassets */; };
+		8739A8E82982C9A6000A20FA /* StepWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739A8E72982C9A6000A20FA /* StepWellTests.swift */; };
+		8739A8F22982C9A6000A20FA /* StepWellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739A8F12982C9A6000A20FA /* StepWellUITests.swift */; };
+		8739A8F42982C9A6000A20FA /* StepWellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739A8F32982C9A6000A20FA /* StepWellUITestsLaunchTests.swift */; };
+		8739A9012982CA66000A20FA /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739A9002982CA66000A20FA /* LoginSignUpViewController.swift */; };
+		8739A9032982D4C8000A20FA /* EmailVerifiAndCreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739A9022982D4C8000A20FA /* EmailVerifiAndCreateUserViewController.swift */; };
+		8739A9052982DF69000A20FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8739A9042982DF69000A20FA /* GoogleService-Info.plist */; };
+		87509C1629950FDC00E45516 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87509C1529950E2D00E45516 /* Launch Screen.storyboard */; };
+		877756152985AF2D00C91F90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877756142985AF2D00C91F90 /* GoogleService-Info.plist */; };
+		8796C4A9299FFD8D007E9437 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8796C4A8299FFD8C007E9437 /* ProfileViewController.swift */; };
+		87B1E9F129882FB7003A35E7 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B1E9F029882FB7003A35E7 /* Structures.swift */; };
+		87B1E9F329883948003A35E7 /* CountryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 87B1E9F229883948003A35E7 /* CountryData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8739A8E42982C9A6000A20FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8739A8C52982C9A5000A20FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8739A8CC2982C9A5000A20FA;
+			remoteInfo = StepWell;
+		};
+		8739A8EE2982C9A6000A20FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8739A8C52982C9A5000A20FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8739A8CC2982C9A5000A20FA;
+			remoteInfo = StepWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A51FFF78145EE72C08C0E9C /* Pods-StepWell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepWell.debug.xcconfig"; path = "Target Support Files/Pods-StepWell/Pods-StepWell.debug.xcconfig"; sourceTree = "<group>"; };
+		8716543A29AA222300433A0D /* WeekDayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayCollectionViewCell.swift; sourceTree = "<group>"; };
+		871980EF29A4E91400217860 /* CountryCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeCell.swift; sourceTree = "<group>"; };
+		871980F229A5F1E800217860 /* StepProgressGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StepProgressGraphView.swift; path = ViewControllers/StepProgressGraphView.swift; sourceTree = SOURCE_ROOT; };
+		871980F429A5F20E00217860 /* StepWell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StepWell.entitlements; sourceTree = "<group>"; };
+		871980F829A618D100217860 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		8724034C29AB3AAD00610595 /* dailyDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyDataTableViewCell.swift; sourceTree = "<group>"; };
+		8739A8CD2982C9A5000A20FA /* StepWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8739A8D02982C9A5000A20FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8739A8D22982C9A5000A20FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8739A8D72982C9A5000A20FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8739A8D92982C9A6000A20FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8739A8DE2982C9A6000A20FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8739A8E32982C9A6000A20FA /* StepWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8739A8E72982C9A6000A20FA /* StepWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepWellTests.swift; sourceTree = "<group>"; };
+		8739A8ED2982C9A6000A20FA /* StepWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8739A8F12982C9A6000A20FA /* StepWellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepWellUITests.swift; sourceTree = "<group>"; };
+		8739A8F32982C9A6000A20FA /* StepWellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepWellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8739A9002982CA66000A20FA /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		8739A9022982D4C8000A20FA /* EmailVerifiAndCreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerifiAndCreateUserViewController.swift; sourceTree = "<group>"; };
+		8739A9042982DF69000A20FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87509C1529950E2D00E45516 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		877756142985AF2D00C91F90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8796C4A8299FFD8C007E9437 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ViewControllers/ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		87B1E9F029882FB7003A35E7 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		87B1E9F229883948003A35E7 /* CountryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CountryData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		C9666DFAE5B18C996B12CAD0 /* Pods_StepWell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepWell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01F2A842BC87C07DA9165AF /* Pods-StepWell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepWell.release.xcconfig"; path = "Target Support Files/Pods-StepWell/Pods-StepWell.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8739A8CA2982C9A5000A20FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265B1989F9A0657A816ECE43 /* Pods_StepWell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8739A8E02982C9A6000A20FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8739A8EA2982C9A6000A20FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F2D3A632F91CC8EA8D0AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A51FFF78145EE72C08C0E9C /* Pods-StepWell.debug.xcconfig */,
+				D01F2A842BC87C07DA9165AF /* Pods-StepWell.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		76D4DB248493D1DF03EB57ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9666DFAE5B18C996B12CAD0 /* Pods_StepWell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8739A8C42982C9A5000A20FA = {
+			isa = PBXGroup;
+			children = (
+				8799BBBE299D50F100ADE721 /* ViewControllers */,
+				8799BBBF299D511200ADE721 /* DataFiles */,
+				8799BBC0299D516000ADE721 /* Helper */,
+				8739A8CF2982C9A5000A20FA /* StepWell */,
+				8739A8E62982C9A6000A20FA /* StepWellTests */,
+				8739A8F02982C9A6000A20FA /* StepWellUITests */,
+				8739A8CE2982C9A5000A20FA /* Products */,
+				22F2D3A632F91CC8EA8D0AAB /* Pods */,
+				76D4DB248493D1DF03EB57ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8739A8CE2982C9A5000A20FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8739A8CD2982C9A5000A20FA /* StepWell.app */,
+				8739A8E32982C9A6000A20FA /* StepWellTests.xctest */,
+				8739A8ED2982C9A6000A20FA /* StepWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8739A8CF2982C9A5000A20FA /* StepWell */ = {
+			isa = PBXGroup;
+			children = (
+				871980F429A5F20E00217860 /* StepWell.entitlements */,
+				8739A8D62982C9A5000A20FA /* Main.storyboard */,
+				87509C1529950E2D00E45516 /* Launch Screen.storyboard */,
+				8739A8D92982C9A6000A20FA /* Assets.xcassets */,
+				8739A8DE2982C9A6000A20FA /* Info.plist */,
+				877756142985AF2D00C91F90 /* GoogleService-Info.plist */,
+			);
+			path = StepWell;
+			sourceTree = "<group>";
+		};
+		8739A8E62982C9A6000A20FA /* StepWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				8739A8E72982C9A6000A20FA /* StepWellTests.swift */,
+			);
+			path = StepWellTests;
+			sourceTree = "<group>";
+		};
+		8739A8F02982C9A6000A20FA /* StepWellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8739A8F12982C9A6000A20FA /* StepWellUITests.swift */,
+				8739A8F32982C9A6000A20FA /* StepWellUITestsLaunchTests.swift */,
+				8739A9042982DF69000A20FA /* GoogleService-Info.plist */,
+			);
+			path = StepWellUITests;
+			sourceTree = "<group>";
+		};
+		8799BBBE299D50F100ADE721 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8739A8D02982C9A5000A20FA /* AppDelegate.swift */,
+				8739A9022982D4C8000A20FA /* EmailVerifiAndCreateUserViewController.swift */,
+				8739A9002982CA66000A20FA /* LoginSignUpViewController.swift */,
+				8739A8D22982C9A5000A20FA /* SceneDelegate.swift */,
+				871980F229A5F1E800217860 /* StepProgressGraphView.swift */,
+				8796C4A8299FFD8C007E9437 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8799BBBF299D511200ADE721 /* DataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				87B1E9F229883948003A35E7 /* CountryData.json */,
+			);
+			path = DataFiles;
+			sourceTree = "<group>";
+		};
+		8799BBC0299D516000ADE721 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				87B1E9F029882FB7003A35E7 /* Structures.swift */,
+				8716543A29AA222300433A0D /* WeekDayCollectionViewCell.swift */,
+				871980F829A618D100217860 /* Functions.swift */,
+				871980EF29A4E91400217860 /* CountryCodeCell.swift */,
+				8724034C29AB3AAD00610595 /* dailyDataTableViewCell.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8739A8CC2982C9A5000A20FA /* StepWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8739A8F72982C9A6000A20FA /* Build configuration list for PBXNativeTarget "StepWell" */;
+			buildPhases = (
+				490B3022602787C0B42CA715 /* [CP] Check Pods Manifest.lock */,
+				8739A8C92982C9A5000A20FA /* Sources */,
+				8739A8CA2982C9A5000A20FA /* Frameworks */,
+				8739A8CB2982C9A5000A20FA /* Resources */,
+				52AEA5E2565B86EB8CADD189 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepWell;
+			productName = StepWell;
+			productReference = 8739A8CD2982C9A5000A20FA /* StepWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8739A8E22982C9A6000A20FA /* StepWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8739A8FA2982C9A6000A20FA /* Build configuration list for PBXNativeTarget "StepWellTests" */;
+			buildPhases = (
+				8739A8DF2982C9A6000A20FA /* Sources */,
+				8739A8E02982C9A6000A20FA /* Frameworks */,
+				8739A8E12982C9A6000A20FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8739A8E52982C9A6000A20FA /* PBXTargetDependency */,
+			);
+			name = StepWellTests;
+			productName = StepWellTests;
+			productReference = 8739A8E32982C9A6000A20FA /* StepWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8739A8EC2982C9A6000A20FA /* StepWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8739A8FD2982C9A6000A20FA /* Build configuration list for PBXNativeTarget "StepWellUITests" */;
+			buildPhases = (
+				8739A8E92982C9A6000A20FA /* Sources */,
+				8739A8EA2982C9A6000A20FA /* Frameworks */,
+				8739A8EB2982C9A6000A20FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8739A8EF2982C9A6000A20FA /* PBXTargetDependency */,
+			);
+			name = StepWellUITests;
+			productName = StepWellUITests;
+			productReference = 8739A8ED2982C9A6000A20FA /* StepWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8739A8C52982C9A5000A20FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8739A8CC2982C9A5000A20FA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8739A8E22982C9A6000A20FA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8739A8CC2982C9A5000A20FA;
+					};
+					8739A8EC2982C9A6000A20FA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8739A8CC2982C9A5000A20FA;
+					};
+				};
+			};
+			buildConfigurationList = 8739A8C82982C9A5000A20FA /* Build configuration list for PBXProject "StepWell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8739A8C42982C9A5000A20FA;
+			productRefGroup = 8739A8CE2982C9A5000A20FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8739A8CC2982C9A5000A20FA /* StepWell */,
+				8739A8E22982C9A6000A20FA /* StepWellTests */,
+				8739A8EC2982C9A6000A20FA /* StepWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8739A8CB2982C9A5000A20FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B1E9F329883948003A35E7 /* CountryData.json in Resources */,
+				877756152985AF2D00C91F90 /* GoogleService-Info.plist in Resources */,
+				8739A8DA2982C9A6000A20FA /* Assets.xcassets in Resources */,
+				87509C1629950FDC00E45516 /* Launch Screen.storyboard in Resources */,
+				8739A8D82982C9A5000A20FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8739A8E12982C9A6000A20FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8739A8EB2982C9A6000A20FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8739A9052982DF69000A20FA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		490B3022602787C0B42CA715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepWell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52AEA5E2565B86EB8CADD189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepWell/Pods-StepWell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepWell/Pods-StepWell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepWell/Pods-StepWell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8739A8C92982C9A5000A20FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B1E9F129882FB7003A35E7 /* Structures.swift in Sources */,
+				8739A8D12982C9A5000A20FA /* AppDelegate.swift in Sources */,
+				8716543B29AA222300433A0D /* WeekDayCollectionViewCell.swift in Sources */,
+				8796C4A9299FFD8D007E9437 /* ProfileViewController.swift in Sources */,
+				871980F929A618D100217860 /* Functions.swift in Sources */,
+				8739A9012982CA66000A20FA /* LoginSignUpViewController.swift in Sources */,
+				8739A9032982D4C8000A20FA /* EmailVerifiAndCreateUserViewController.swift in Sources */,
+				8724034D29AB3AAD00610595 /* dailyDataTableViewCell.swift in Sources */,
+				871980F329A5F1E800217860 /* StepProgressGraphView.swift in Sources */,
+				8739A8D32982C9A5000A20FA /* SceneDelegate.swift in Sources */,
+				871980F029A4E91400217860 /* CountryCodeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8739A8DF2982C9A6000A20FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8739A8E82982C9A6000A20FA /* StepWellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8739A8E92982C9A6000A20FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8739A8F42982C9A6000A20FA /* StepWellUITestsLaunchTests.swift in Sources */,
+				8739A8F22982C9A6000A20FA /* StepWellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8739A8E52982C9A6000A20FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8739A8CC2982C9A5000A20FA /* StepWell */;
+			targetProxy = 8739A8E42982C9A6000A20FA /* PBXContainerItemProxy */;
+		};
+		8739A8EF2982C9A6000A20FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8739A8CC2982C9A5000A20FA /* StepWell */;
+			targetProxy = 8739A8EE2982C9A6000A20FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8739A8D62982C9A5000A20FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8739A8D72982C9A5000A20FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8739A8F52982C9A6000A20FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8739A8F62982C9A6000A20FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8739A8F82982C9A6000A20FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A51FFF78145EE72C08C0E9C /* Pods-StepWell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = StepWell/StepWell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepWell/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow StepWell to Access user step count";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow StepWell to Access user steps count ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spry-Studios.StepWell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8739A8F92982C9A6000A20FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01F2A842BC87C07DA9165AF /* Pods-StepWell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = StepWell/StepWell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepWell/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow StepWell to Access user step count";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow StepWell to Access user steps count ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spry-Studios.StepWell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8739A8FB2982C9A6000A20FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spry-Studios.StepWellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepWell";
+			};
+			name = Debug;
+		};
+		8739A8FC2982C9A6000A20FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spry-Studios.StepWellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepWell";
+			};
+			name = Release;
+		};
+		8739A8FE2982C9A6000A20FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spry-Studios.StepWellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepWell;
+			};
+			name = Debug;
+		};
+		8739A8FF2982C9A6000A20FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spry-Studios.StepWellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8739A8C82982C9A5000A20FA /* Build configuration list for PBXProject "StepWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8739A8F52982C9A6000A20FA /* Debug */,
+				8739A8F62982C9A6000A20FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8739A8F72982C9A6000A20FA /* Build configuration list for PBXNativeTarget "StepWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8739A8F82982C9A6000A20FA /* Debug */,
+				8739A8F92982C9A6000A20FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8739A8FA2982C9A6000A20FA /* Build configuration list for PBXNativeTarget "StepWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8739A8FB2982C9A6000A20FA /* Debug */,
+				8739A8FC2982C9A6000A20FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8739A8FD2982C9A6000A20FA /* Build configuration list for PBXNativeTarget "StepWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8739A8FE2982C9A6000A20FA /* Debug */,
+				8739A8FF2982C9A6000A20FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8739A8C52982C9A5000A20FA /* Project object */;
+}
